@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ideaWork.iml" filepath="$PROJECT_DIR$/.idea/ideaWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/.idea/.idea.iml" filepath="$PROJECT_DIR$/javaBase/.idea/.idea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/classloader/classloader.iml" filepath="$PROJECT_DIR$/javaBase/classloader/classloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/enumDemo/enumDemo.iml" filepath="$PROJECT_DIR$/javaBase/enumDemo/enumDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/java_design_pattern/java_design_pattern.iml" filepath="$PROJECT_DIR$/javaBase/java_design_pattern/java_design_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/jdkdesignmode/jdkdesignmode.iml" filepath="$PROJECT_DIR$/javaBase/jdkdesignmode/jdkdesignmode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mySpringBoot/mySpringBoot.iml" filepath="$PROJECT_DIR$/mySpringBoot/mySpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/threadModule/threadModule.iml" filepath="$PROJECT_DIR$/javaBase/threadModule/threadModule.iml" />
     </modules>
   </component>
 </project>
