@@ -1,6 +1,6 @@
-package com.libo.designpattern.agency.proxycustom;
+package com.libo.designpattern.agency.jdkproxycustom;
 
-import sun.rmi.runtime.Log;
+
 
 import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
@@ -75,7 +75,7 @@ public class GPProxy {
      */
     private static String generateSrc(Class<?>[] interfaces) {
         StringBuffer sb = new StringBuffer();
-        sb.append("package com.libo.designpattern.agency.proxycustom;" + ln);
+        sb.append("package com.libo.designpattern.agency.jdkproxycustom;" + ln);
         sb.append("import java.lang.reflect.Method;" + ln);
         sb.append(ln);
 
@@ -135,7 +135,7 @@ public class GPProxy {
     /**
      * 根据类型处理返回值
      *
-     * @param tClass
+     * @param
      * @return
      */
     //private static String getReturnEmptyCode(Class<?> tClass) {

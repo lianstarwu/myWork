@@ -1,4 +1,6 @@
-package com.libo.designpattern.agency.proxycustom;
+package com.libo.designpattern.agency.jdkproxycustom;
+
+import com.libo.designpattern.agency.jdkproxycustom.GPPerson;
 
 public class GPCustomer implements GPPerson {
     @Override

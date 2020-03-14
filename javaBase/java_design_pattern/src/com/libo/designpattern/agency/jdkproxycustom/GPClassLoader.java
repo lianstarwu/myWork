@@ -1,4 +1,4 @@
-package com.libo.designpattern.agency.proxycustom;
+package com.libo.designpattern.agency.jdkproxycustom;
 
 
 import java.io.ByteArrayOutputStream;

@@ -1,4 +1,6 @@
-package com.libo.designpattern.agency.proxycustom;
+package com.libo.designpattern.agency.jdkproxycustom;
+
+
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -11,7 +13,7 @@ public class GPMeiPo implements GPInvocationHandler {
 
     public Object getInstance(Object target) {
         this.target = target;
-        return com.libo.designpattern.agency.proxycustom.GPProxy.newProxyInvocation(new com.libo.designpattern.agency.proxycustom.GPClassLoader(), target.getClass().getInterfaces(), this);
+        return GPProxy.newProxyInvocation(new GPClassLoader(), target.getClass().getInterfaces(), this);
     }
 
     @Override

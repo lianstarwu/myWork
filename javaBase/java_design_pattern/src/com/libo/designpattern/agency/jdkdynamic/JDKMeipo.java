@@ -1,4 +1,4 @@
-package com.libo.designpattern.agency.dynamic;
+package com.libo.designpattern.agency.jdkdynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

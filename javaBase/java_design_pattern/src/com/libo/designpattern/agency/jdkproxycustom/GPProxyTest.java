@@ -1,4 +1,5 @@
-package com.libo.designpattern.agency.proxycustom;
+package com.libo.designpattern.agency.jdkproxycustom;
+
 
 import sun.misc.ProxyGenerator;
 
@@ -9,7 +10,7 @@ import java.lang.reflect.InvocationTargetException;
 
 public class GPProxyTest {
     public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
-        com.libo.designpattern.agency.proxycustom.GPPerson person = (GPPerson) new com.libo.designpattern.agency.proxycustom.GPMeiPo().getInstance(new GPCustomer());
+        GPPerson person = (GPPerson) new GPMeiPo().getInstance(new GPCustomer());
         person.findLove();
         person.study();
         person.study1("-study1");

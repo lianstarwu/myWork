@@ -1,4 +1,4 @@
-package com.libo.designpattern.agency.dynamic;
+package com.libo.designpattern.agency.jdkdynamic;
 
 public class Customer implements Person {
     //@Override
@@ -12,11 +12,11 @@ public class Customer implements Person {
     //}
     @Override
     public void findLove() {
-        System.out.println("被代理的方法执行-----" );
+        System.out.println("被代理的方法执行-----");
     }
 
     @Override
     public void findLove1() {
-        System.out.println("被代理的方法执行z++++" );
+        System.out.println("被代理的方法执行z++++");
     }
 }
